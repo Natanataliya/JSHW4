@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js.js" defer></script>
+</head>
+<body>
+	<!--Task1-->
+	<button onclick="red()">Task 1</button>
+	<p>HW4Task1Natalia</p>
+	<p>Helloworld</p>
+	<p>Hellohellohello</p>
+	<hr>
+
+	<!--Task2-->
+	<button onclick="shadowImg()">Task 2</button><br>
+	<img src="1.png" alt="">
+	<img src="2.png" alt="">
+	<img src="3.png" alt="">
+	<hr>
+
+	<!--Task3-->
+	<button onclick="pNumeration()">Task 3</button>
+	<p>HelloWorld</p>
+	<p>HelloworldHello</p>
+	<p>Hellohellohello</p>
+	<hr>
+
+	<!--Task4-->
+	<button onclick="calc()">push1</button>
+	<button onclick="calc()">push2</button>	<p id="outNumber"></p>
+	<hr>
+
+	<!--Task5-->
+	<input type="text" id="num">
+	<input type="text" id="exp">
+	<button onclick="power( 
+		parseInt(document.getElementById('num').value),
+		parseInt(document.getElementById('exp').value)
+	)">Push</button>
+	<hr>
+
+	<!--Task6-->
+	<input type="text" id="tag" placeholder="enter tag name">
+	<button onclick="underline(document.getElementById('tag').value)">Push</button>
+	<hr>
+
+	<!--Task7-8-->
+	<input type="text" id="age">
+	<button onclick="ageVerif(parseInt( document.getElementById('age').value ))">Push</button>
+	<hr>
+
+	<!--Task9-10-->
+	
+	<!--Task11-->
+	<button id="a" onclick="gener()">Generate number</button>
+	<p>Enter your number<input type="text" id="number"></p>
+	<p id="result"></p>
+	<button id="checkButton" onclick="check()">Check</button>
+</body>
+</html>
